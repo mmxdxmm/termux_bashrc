@@ -49,7 +49,7 @@ backup_bashrc() {
 # 下载函数
 download_new_bashrc() {
     echo -e "${GREEN}▶ 开始下载新的.bashrc文件...${NC}"
-    curl -sL -o ~/.bashrc https://raw.githubusercontent.com/mmxdxmm/termux_bashrc/.bashrc
+    curl -sL -o ~/.bashrc https://raw.githubusercontent.com/mmxdxmm/termux_bashrc/bashrc
     
     if [ $? -eq 0 ]; then
         echo -e "${GREEN}✓ 下载并替换成功${NC}"
